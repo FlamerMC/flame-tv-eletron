@@ -9,10 +9,10 @@ For windows support and more ease use the web version: [https://flamermc.github.
 ## How to use/install
 Just paste this into your command line
 Make sure you have wget and unzip (debain/ubuntu: 
-sudo apt-get install unzip | Arch: yay -S unzip, you need [yay](https://github.com/Jguer/yay) installed)
+sudo apt-get install unzip | Arch: pacman -S unzip)
 
 Run this script in your terminal
-`wget https://raw.githubusercontent.com/FlamerMC/flame-tv-eletron/main/install.sh && install.sh`
+`wget https://raw.githubusercontent.com/FlamerMC/flame-tv-eletron/main/install.sh && bash install.sh`
 ## Want to edit?
 1. `git clone https://github.com/FlamerMC/flame-tv-eletron.git`
 2. `cd flame-tv-eletron`
