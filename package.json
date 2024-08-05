@@ -1,0 +1,64 @@
+{
+  "name": "flametv",
+  "version": "1.0.0",
+  "description": "an tv like eletron app",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlamerMC/flame-tv-eletron.git"
+  },
+  "keywords": [
+    "tv"
+  ],
+  "author": "FlamerMC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlamerMC/flame-tv-eletron/issues"
+  },
+  "homepage": "https://github.com/FlamerMC/flame-tv-eletron#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.4.0",
+    "@electron-forge/maker-deb": "^7.4.0",
+    "@electron-forge/maker-flatpak": "^7.4.0",
+    "@electron-forge/maker-rpm": "^7.4.0",
+    "@electron-forge/maker-squirrel": "^7.4.0",
+    "@electron-forge/maker-zip": "^7.4.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
+    "@electron-forge/plugin-fuses": "^7.4.0",
+    "@electron/fuses": "^1.8.0",
+    "electron": "^31.3.1",
+    "electron-builder": "^24.13.3"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1"
+  },
+  "build": {
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": [
+          "x64",
+          "ia32"
+        ]
+      }
+    ]
+  },
+  "mac": {
+    "target": [
+      {
+        "target": "AppImage",
+        "arch": [
+          "x64",
+          "ia32"
+        ]
+      }
+    ]
+  }
+}
+}
