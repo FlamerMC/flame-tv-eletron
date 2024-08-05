@@ -24,4 +24,4 @@ Run this script in your terminal
 3. ~~`npm init`~~ (idk if u need to do this)
 4. `npm install --save-dev electron`
 ## Notes
-You'll get signed out on the desktop version, so if you dont plan to keep it open then use the web version
+You'll get signed out on the desktop version, so if you dont plan to keep it open then use the web version [https://flamermc.github.io/FlameTV/](https://flamermc.github.io/FlameTV/)
