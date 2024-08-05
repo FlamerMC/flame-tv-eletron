@@ -6,6 +6,12 @@ An TV like interface written in HTML, CSS, JS, NodeJS, and Electron.
 
 For windows support and more ease use the web version: [https://flamermc.github.io/FlameTV/](https://flamermc.github.io/FlameTV/)
 **THIS APP IS IN ALPHA SO MOST FEATURES MIGHT BE BUGGY!**
+## Features
+- Search up movies
+- Direct access to Netflix, Prime Video, and Disney Plus (more coming soon)
+### Soon to come features:
+- Back button (Desktop [on web probally needs an extension]
+- More "Apps"
 ## How to use/install
 You need these things:
 Ubuntu/Debain
